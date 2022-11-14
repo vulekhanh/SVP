@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #ffffff;
+  --blue-color: #1040c1;
+}
+
+html {
+  background-color: var(--primary-color);
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--blue-color);
+  font-family: pp-sans-big-regular, Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  font-variant: normal;
+  font-size: 112.5%;
+}
+
+.contentContainer {
+  padding: 4.8%;
+  width: 100%;
+  background-color: var(--primary-color);
+}
